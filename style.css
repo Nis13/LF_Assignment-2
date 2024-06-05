@@ -292,6 +292,8 @@ span{
     display: flex;
     gap: 7.75rem;
     overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0.02rem;
