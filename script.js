@@ -8,7 +8,9 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     const toggleButton = document.getElementById('toggle-btn_image');
     const hamburgerButton = document.getElementById('hamburger-img');
     const searchBtn = document.getElementById('search-btn');
-    const cartBtn = document.getElementById('cart-btn')
+    const cartBtn = document.getElementById('cart-btn');
+    const scrollBtn = document.getElementById('scroll-btn');
+    const scrollBtnhide = document.getElementById('scroll-btn--hidden');
 
     if (document.body.classList.contains('theme--dark')){
         darkModeEllipse1.classList.remove('hidden');
@@ -17,6 +19,8 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
         searchBtn.src = "Images/Search.svg";
         hamburgerButton.src="Images/Hamburger.svg";
         cartBtn.src = "Images/Cart.svg";
+        scrollBtn.src = "Images/Scrl down.svg";
+        scrollBtnhide.src = "Images/Scrl down.svg";
     }
     else {
         darkModeEllipse1.classList.add('hidden');
@@ -25,5 +29,7 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
         searchBtn.src = "Images/black-search.svg";
         hamburgerButton.src = "Images/light-hamburger.svg";
         cartBtn.src = "Images/black-cart.svg";
+        scrollBtn.src = "Images/scroll-btn-light.svg";
+        scrollBtnhide.src = "Images/scroll-btn-light.svg";
     }
 });

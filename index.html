@@ -8,7 +8,6 @@
     <title>Musify</title>
 </head>
 <body class="theme theme--dark">
-    <!-- <div class="main-container__dark-gradient-top "><img id="ellipse1" src="Images/ecllipse-top.svg" alt=""></div> -->
     <div class="main-container">
         <div class="main-container__landing-page">
             <div class="landing-page__top ">
@@ -29,8 +28,8 @@
                             <button id="theme-toggle" class="nav-bar__toggle-btn" ><img id="toggle-btn_image" src="Images/dark-toggle.svg" alt="" class="nav-bar__img"></button>
                         </div>
                         <div class="nav-bar__search-cart-btns">
-                            <div class="nav-bar__search-btn--dark"><img id="search-btn" src="Images/Search.svg" alt="" class="nav-bar__img" style="fill: white;"></div>
-                        <div class="nav-bar__cart--dark"><img id="cart-btn" src="Images/Cart.svg" alt="" class="nav-bar__img"></div>
+                            <div class="nav-bar__search-btn--dark"><img id="search-btn" src="Images/Search.svg" alt="" class="nav-bar__img"></div>
+                            <div class="nav-bar__cart--dark"><img id="cart-btn" src="Images/Cart.svg" alt="" class="nav-bar__img"></div>
                         </div>
                         
                         <button class="nav-bar__login-btn">Login</button>
@@ -39,6 +38,9 @@
                 </div>
                 <div class="main-container__search-hidden">
                     <img src="Images/Searchbar (1).png" alt="">
+                </div>
+                <div class="main-container__whole-landing">
+
                 </div>
                 <div class="main-container__content-box">
                     
@@ -53,7 +55,7 @@
                                 <button class="left-content__shop-now buttons-option__btn btn--glow-btn">Shop Now</button>
                                 <button class="left-content__add-to-cart buttons-option__btn btn--glow-btn"><img src="Images/cart-small.svg" alt="">Add to Cart</button>
                             </div>
-                            <!-- <div class="left-content__scroll-btn"><img src="Images/Scrl down.svg" alt=""></div> -->
+                            
                         </div>
                     </div>
                 <!-- landing-page right -->
@@ -66,9 +68,9 @@
                 <div class="left-container__img "><img id="ellipse2" src="Images/ellipse-down.svg" alt=""></div>
                 <div class="main-container__dark-gradient-top "><img id="ellipse1" src="Images/ecllipse-top.svg" alt=""></div>
             </div>
+            <div class="left-content__scroll-btn scroll-btn" ><a href="#footer" class="scroll-btn--link"><img id="scroll-btn" src="Images/Scrl down.svg" alt=""></a></div>
             <!-- landing page bottom -->
             <div class="main-container__right-bottom">
-                
                     
                 <div class="right-bottom__list">
         
@@ -106,8 +108,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="left-content__scroll-btn"><img src="Images/Scrl down.svg" alt=""></div> -->
             </div>
+            <div class="left-content__scroll-btn--hidden scroll-btn"><a href="#footer" class="scroll-btn--link"><img id="scroll-btn--hidden" src="Images/Scrl down.svg" alt=""></a></div>
+        </div>
         </div>
     
         <!-- Popular trends -->
@@ -217,7 +220,6 @@
         <!-- exclusive offer container -->
         <div class="main-container__exclusive-offer-container">
             <div class="exclusive-offer-container__left-container">
-                <!-- <img src="Images/offer.svg" alt="" class="exclusive-offer-container__offer-img"> -->
                 <img src="Images/Offer Section.svg" alt="" class="exclusive-offer-container__headphone-img">
             </div>
             <div class="exclusive-offer-container__right">
@@ -319,6 +321,25 @@
                         </div>
                     </div>
                 </div>
+                <div class="new-arrival__product-tile">
+                    <div class="product-tile__img"><img src="Images/pink-headphone.svg" alt=""></div>
+                    <div class="product-tile__product-detail">
+                        <div class="product-tile__title">Wireless Headphones with Dolby Surround Sound</div>
+                        <div class="product-tile__product-description">
+                            <ul class="product-description__list">
+                                <li>Truely Wireless</li>
+                                <li>Dolby Surround Sound</li>
+                                <li>13hrs of playback time</li>
+                                <li>Made in Germany</li>
+                            </ul>
+                        </div>
+                        <div class="product-tile__price yellow">$145</div>
+                        <div class="product-tile__buttons-option">
+                            <button class="product-tile__add-to-cart product-tile__btn btn--glow-btn"><img src="Images/cart-small.svg" alt="">Add to Cart</button>
+                            <button class="product-tile__buy-now product-tile__btn btn--glow-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
@@ -341,7 +362,7 @@
 
     </div>
     <!-- footer -->
-    <footer class="footer-container">
+    <footer id="footer" class="footer-container">
         <div class="footer-container__main-container">
             <picture class="footer-container__logo"><img src="Images/main-logo.svg" alt="" class="footer-container__img"></picture>
             <div class="footer-details__subscribe-container footer-details__tile--hidden">
